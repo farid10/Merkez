@@ -1,0 +1,330 @@
+@font-face {
+  font-family: Segoe;
+  src: url("../Segoe/SegoeUILight.ttf"); }
+body {
+  font-family: Segoe; }
+
+.commonLine {
+  border: 1px solid lightgray; }
+
+header {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap; }
+  header .logoPartOne {
+    width: 40%; }
+    @media screen and (max-width: 992px) {
+      header .logoPartOne {
+        width: 100%; } }
+    header .logoPartOne ul li {
+      list-style: none;
+      margin-right: 20px; }
+      @media screen and (max-width: 1281px) {
+        header .logoPartOne ul li img {
+          max-width: 120px; } }
+      header .logoPartOne ul li h4 {
+        margin-top: 30px; }
+  header .logoPartTwo {
+    width: 60%; }
+    @media screen and (max-width: 992px) {
+      header .logoPartTwo {
+        width: 100%; } }
+    header .logoPartTwo ul {
+      display: flex !important; }
+      @media screen and (max-width: 992px) {
+        header .logoPartTwo ul {
+          display: block !important; } }
+      header .logoPartTwo ul li {
+        list-style: none; }
+        header .logoPartTwo ul li img {
+          max-width: 250px; }
+
+#navigatioBar {
+  padding: 10px;
+  width: 100%;
+  background: #1195c6; }
+  #navigatioBar .container ul {
+    margin: 0;
+    display: flex;
+    padding: 0; }
+    #navigatioBar .container ul li {
+      list-style: none;
+      margin-left: 15px; }
+      #navigatioBar .container ul li a {
+        text-decoration: none;
+        color: #fff; }
+  #navigatioBar .container .row .secondPart ul {
+    float: right; }
+
+footer {
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 0px; }
+  footer h5 {
+    margin-top: 10px; }
+  footer h6 {
+    font-weight: 600; }
+  footer .partTwo ul {
+    padding: 0; }
+    footer .partTwo ul li {
+      list-style: none; }
+      footer .partTwo ul li a {
+        color: #1195c6;
+        text-decoration: none;
+        font-size: 14px; }
+  footer .partThree ul {
+    padding: 0; }
+    footer .partThree ul li {
+      list-style: none;
+      color: #1195c6;
+      font-size: 14px; }
+  footer .partFour .contactList {
+    padding: 0; }
+    footer .partFour .contactList li {
+      list-style: none;
+      margin-right: 15px; }
+      footer .partFour .contactList li a {
+        text-decoration: none; }
+        footer .partFour .contactList li a i {
+          font-size: 1.5em;
+          color: #1195c6;
+          border: 2px solid #1195c6;
+          border-radius: 100%;
+          padding: 7px 14px; }
+        footer .partFour .contactList li a .fa-instagram {
+          padding: 7px 10px; }
+        footer .partFour .contactList li a .fa-youtube {
+          padding: 7px 5px; }
+  footer .huquq {
+    float: right; }
+
+#withLayout {
+  width: 100%;
+  padding-top: 20px; }
+  #withLayout .commonContent {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+    #withLayout .commonContent .header {
+      padding: 20px;
+      background: #1195c6;
+      padding-bottom: 10px;
+      padding-top: 10px; }
+      #withLayout .commonContent .header h6 {
+        color: #fff; }
+      #withLayout .commonContent .header .f {
+        margin-top: -22px;
+        float: right;
+        font-size: 14px; }
+        #withLayout .commonContent .header .f a {
+          text-decoration: none;
+          color: #FFFFFF; }
+    #withLayout .commonContent .contactUs {
+      padding: 20px; }
+      #withLayout .commonContent .contactUs .map {
+        margin-top: 30px; }
+      #withLayout .commonContent .contactUs p span:first-child {
+        font-weight: 700; }
+      #withLayout .commonContent .contactUs form input {
+        margin-bottom: 10px;
+        border: 1px solid #1195c6; }
+      #withLayout .commonContent .contactUs form textarea {
+        resize: none;
+        margin-bottom: 10px;
+        border: 1px solid #1195c6; }
+      #withLayout .commonContent .contactUs form button {
+        float: right;
+        background: #1195c6;
+        border: #1195c6; }
+    #withLayout .commonContent .hemweBizimle {
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px; }
+      #withLayout .commonContent .hemweBizimle .myForms .row {
+        border: 1px solid #1195c6;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        position: relative;
+        box-sizing: border-box;
+        margin-top: 10px; }
+        #withLayout .commonContent .hemweBizimle .myForms .row .cmm {
+          width: fit-content;
+          text-align: center; }
+          @media screen and (max-width: 778px) {
+            #withLayout .commonContent .hemweBizimle .myForms .row .cmm {
+              width: 100%; } }
+          #withLayout .commonContent .hemweBizimle .myForms .row .cmm img {
+            border: 1px solid gray;
+            border-radius: 100%; }
+          #withLayout .commonContent .hemweBizimle .myForms .row .cmm h5 {
+            text-transform: uppercase; }
+        #withLayout .commonContent .hemweBizimle .myForms .row a {
+          position: absolute;
+          right: 40px;
+          bottom: 10px;
+          border: 1px solid #1195c6;
+          border-radius: 20px;
+          padding: 5px 20px;
+          color: #1195c6;
+          text-decoration: none;
+          transition: all .3s ease; }
+          #withLayout .commonContent .hemweBizimle .myForms .row a:hover {
+            color: #ffffff;
+            background: #1195c6; }
+          @media screen and (max-width: 778px) {
+            #withLayout .commonContent .hemweBizimle .myForms .row a {
+              position: relative;
+              margin: 0 auto;
+              right: 0;
+              bottom: 0px; } }
+          #withLayout .commonContent .hemweBizimle .myForms .row a i {
+            font-size: 0.9em; }
+        #withLayout .commonContent .hemweBizimle .myForms .row h5 {
+          font-weight: bold; }
+    #withLayout .commonContent .navigator {
+      padding-top: 30px;
+      padding-bottom: 30px; }
+      #withLayout .commonContent .navigator ul {
+        border: 1px solid gray;
+        border-radius: 4px;
+        margin-left: 33px;
+        padding: 0; }
+        #withLayout .commonContent .navigator ul li {
+          list-style: none;
+          transition: all .3s; }
+          #withLayout .commonContent .navigator ul li:hover {
+            background: #1195c6; }
+          #withLayout .commonContent .navigator ul li a {
+            color: gray;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-decoration: none; }
+          #withLayout .commonContent .navigator ul li:hover a {
+            color: #fff; }
+        #withLayout .commonContent .navigator ul li:not(:last-child) {
+          border-right: 1px solid gray; }
+    #withLayout .commonContent .meqaleler {
+      padding-bottom: 25px; }
+      #withLayout .commonContent .meqaleler .tbCn {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        margin-top: 30px; }
+        #withLayout .commonContent .meqaleler .tbCn .cnt .col-12 {
+          margin-top: 30px; }
+        #withLayout .commonContent .meqaleler .tbCn .cnt .row {
+          margin-top: 25px; }
+        #withLayout .commonContent .meqaleler .tbCn .cnt h5 {
+          font-size: 18px;
+          font-weight: 700; }
+        #withLayout .commonContent .meqaleler .tbCn .cnt p {
+          font-size: 14px; }
+        #withLayout .commonContent .meqaleler .tbCn .cnt a {
+          padding: 5px 24px;
+          color: #fff;
+          border: 1px solid #1195c6;
+          transition: all .3s ease;
+          border-radius: 4px;
+          background: #1195c6;
+          text-decoration: none; }
+          #withLayout .commonContent .meqaleler .tbCn .cnt a:hover {
+            color: #1195c6;
+            background: #fff; }
+        #withLayout .commonContent .meqaleler .tbCn .navigator {
+          padding-top: 30px;
+          padding-bottom: 30px;
+          margin-left: -32px; }
+          #withLayout .commonContent .meqaleler .tbCn .navigator ul {
+            border: 1px solid gray;
+            border-radius: 4px;
+            padding: 0; }
+            #withLayout .commonContent .meqaleler .tbCn .navigator ul li {
+              list-style: none;
+              transition: all .3s; }
+              #withLayout .commonContent .meqaleler .tbCn .navigator ul li:hover {
+                background: #1195c6; }
+              #withLayout .commonContent .meqaleler .tbCn .navigator ul li a {
+                color: gray;
+                padding-left: 5px;
+                padding-right: 5px;
+                text-decoration: none; }
+              #withLayout .commonContent .meqaleler .tbCn .navigator ul li:hover a {
+                color: #fff; }
+            #withLayout .commonContent .meqaleler .tbCn .navigator ul li:not(:last-child) {
+              border-right: 1px solid gray; }
+    #withLayout .commonContent .merkezinTarixi {
+      padding: 15px; }
+      #withLayout .commonContent .merkezinTarixi img {
+        width: 100%; }
+    #withLayout .commonContent .kitablar {
+      padding: 15px; }
+      #withLayout .commonContent .kitablar .col-12 {
+        margin-top: 10px; }
+      #withLayout .commonContent .kitablar .photo {
+        position: relative; }
+        #withLayout .commonContent .kitablar .photo img {
+          width: 100%; }
+        #withLayout .commonContent .kitablar .photo p {
+          position: absolute;
+          bottom: 0;
+          padding: 5px;
+          background: rgba(17, 149, 198, 0.7);
+          margin: 0;
+          color: #fff; }
+    #withLayout .commonContent .meqalelerFirst {
+      padding: 15px; }
+      #withLayout .commonContent .meqalelerFirst h6 {
+        font-weight: 700; }
+      #withLayout .commonContent .meqalelerFirst span i {
+        color: #1195c6; }
+      #withLayout .commonContent .meqalelerFirst p {
+        margin-top: 10px; }
+    #withLayout .commonContent .xeberler {
+      padding: 15px; }
+      #withLayout .commonContent .xeberler .common {
+        margin-top: 10px; }
+        #withLayout .commonContent .xeberler .common .photo img {
+          width: 100%; }
+        #withLayout .commonContent .xeberler .common .content span {
+          font-weight: 600; }
+        #withLayout .commonContent .xeberler .common .content h6 {
+          font-weight: 700;
+          transition: all .3s ease; }
+          #withLayout .commonContent .xeberler .common .content h6:hover {
+            color: #1195c6; }
+    #withLayout .commonContent .tedbirler {
+      padding: 15px; }
+      #withLayout .commonContent .tedbirler .naviqator ul {
+        display: flex;
+        padding: 0; }
+        #withLayout .commonContent .tedbirler .naviqator ul li {
+          list-style: none;
+          margin-right: 10px;
+          font-weight: bold;
+          font-size: 16px;
+          padding: 5px 25px; }
+        #withLayout .commonContent .tedbirler .naviqator ul .activeMenu {
+          background: #1195c6;
+          color: #fff;
+          padding: 5px 25px; }
+      #withLayout .commonContent .tedbirler .contents .col-4 {
+        margin-top: 10px; }
+      #withLayout .commonContent .tedbirler .contents .photo {
+        position: relative; }
+        #withLayout .commonContent .tedbirler .contents .photo img {
+          width: 100%; }
+        #withLayout .commonContent .tedbirler .contents .photo div {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          color: #fff;
+          padding: 5px;
+          background: rgba(250, 0, 0, 0.6); }
+          #withLayout .commonContent .tedbirler .contents .photo div span:last-child {
+            float: right; }
+      #withLayout .commonContent .tedbirler .contents .content {
+        background: #1195c6;
+        padding: 5px;
+        color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
